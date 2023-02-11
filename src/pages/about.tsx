@@ -1,10 +1,11 @@
 import { type NextPage } from "next"
 import Link from "next/link"
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <>
       <div className="m-8 text-center text-2xl font-semibold">
+        <h1 className="m-2">There&apos;s nothing to see here...</h1>
         <h2>
           Go to{" "}
           <Link href="/form" className="link-primary link">
@@ -21,4 +22,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default About
